@@ -1,6 +1,6 @@
 # Blyth for 11ty
 
-![CI](https://github.com/ryangittings/blyth/workflows/CI/badge.svg)
+![CI](https://github.com/ryangittings/blyth-11ty/workflows/CI/badge.svg)
 
 This is the pure CSS framework for speed and flexibility. It uses CSS variables, and features:
 
