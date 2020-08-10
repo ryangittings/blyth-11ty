@@ -1,0 +1,28 @@
+{
+  "name": "blyth",
+  "version": "1.0.0",
+  "description": "A tiny little starter CSS framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryangittings/blyth"
+  },
+  "scripts": {
+    "tokens": "goron -out src/_includes/css/utility/tokens.css",
+    "dev": "npm run serve",
+    "serve": "ELEVENTY_ENV=development npx eleventy --serve",
+    "production": "npx eleventy"
+  },
+  "bin": {
+    "goron": "./node_modules/goron/src/index.js"
+  },
+  "author": "Ryan Gittings",
+  "license": "GPL-2.0 AND MIT",
+  "homepage": "https://github.com/ryangittings/blyth",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "clean-css": "^4.2.3",
+    "goron": "^0.1.1",
+    "node-fetch": "^2.6.0"
+  },
+  "dependencies": {}
+}
